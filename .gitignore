@@ -1,0 +1,18 @@
+# 🚀 Ignorar node_modules
+node_modules/
+
+# 🔐 Ignorar archivos de entorno (claves secretas, credenciales)
+.env
+
+# 🏗 Ignorar dependencias instaladas (para evitar subirlas)
+package-lock.json
+
+# 🗑 Ignorar logs y caché
+npm-debug.log
+yarn-error.log
+.DS_Store
+dist/
+coverage/
+
+# 📦 Ignorar archivos de compilación (si usas TypeScript)
+*.tsbuildinfo
